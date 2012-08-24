@@ -35,7 +35,9 @@ The mobile version will automatically show up when a mobile device user agent is
 
 == Screenshots ==
 
+1. The comment form shows up, if you are logged in to your facebook account.
 
+2. If you post a comment, it will show up underneath the comment form.
 
 == Changelog ==
 
