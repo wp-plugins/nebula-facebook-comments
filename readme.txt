@@ -5,7 +5,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: 
 Requires at least: 3.3
 Tested up to: 3.4
-Stable tag: 1.0
+Stable tag: 1.1
 
 Replaces the default comments functionality by Facebook's Comments social plugin.
 
@@ -38,6 +38,10 @@ The mobile version will automatically show up when a mobile device user agent is
 
 
 == Changelog ==
+
+= 1.1 =
+
+* Fixed a bug with the Facebook Plugin's site url. Changed from only using site url to use the posts very permalink.
 
 = 1.0 =
 
