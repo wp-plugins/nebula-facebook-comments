@@ -15,9 +15,13 @@ Replaces the default comments functionality by Facebook's Comments social plugin
 
 Comments Box is a social plugin that enables user commenting on your site. Features include moderation tools and distribution.
 
-Social Relevance: Comments Box uses social signals to surface the highest quality comments for each user. Comments are ordered to show users the most relevant comments from friends, friends of friends, and the most liked or active discussion threads, while comments marked as spam are hidden from view.
+= Social Relevance = 
 
-Distribution: Comments are easily shared with friends or with people who like your Page on Facebook. If a user leaves the “Post to Facebook” box checked when she posts a comment, a story appears on her friends’ News Feed indicating that she’s made a comment on your website, which will also link back to your site.
+Comments Box uses social signals to surface the highest quality comments for each user. Comments are ordered to show users the most relevant comments from friends, friends of friends, and the most liked or active discussion threads, while comments marked as spam are hidden from view.
+
+= Distribution =
+
+Comments are easily shared with friends or with people who like your Page on Facebook. If a user leaves the “Post to Facebook” box checked when she posts a comment, a story appears on her friends’ News Feed indicating that she’s made a comment on your website, which will also link back to your site.
 
 Friends and people who like the Page can then respond to the discussion by liking or replying to the comment directly in the News Feed on Facebook or in the Comments Box on your site. Threads stay synced across Facebook and on the Comments Box on your site regardless of where the comment was made.
 
@@ -36,7 +40,6 @@ The mobile version will automatically show up when a mobile device user agent is
 == Screenshots ==
 
 1. The comment form shows up, if you are logged in to your facebook account.
-
 2. If you post a comment, it will show up underneath the comment form.
 
 == Changelog ==
