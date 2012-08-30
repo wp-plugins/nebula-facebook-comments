@@ -33,9 +33,21 @@ The mobile version will automatically show up when a mobile device user agent is
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Get very social with your social media comments :-).
 
+You can define the width of the plugin by the provided options panel. Although you can define how many comments it shows.
+
 == Frequently Asked Questions ==
 
+= Can I change the colors of this plugin? =
 
+No. The colors are provided by Facebook. There is no way to change it. The only thing you can choose is a pre-defined color profile. For that there will be an option in one of this plugins future releases.
+
+= Can I define my own width and height for the comment panel? =
+
+Yes you can. There is an option for the width. Pleas fill in only the equivalent pixel value. E.g. for 250px please fill in 250. This plugin (and the social plugin provided by Facebook) doesn't support values like percent (100%) or em (3em).
+
+= Does the plugin use the language of the country i am from? =
+
+Good question. Yes and no. The plugin uses the language value defined in the wp-config.php where it says e.g. define( 'WPLANG', 'en_US' );. So the facebook social plugin will be automatically translatet into english. To finally answer the question: If you e.g. live in spain but you have installed WordPress in english (rember the en_US constant), than the Facebook plugin will not be translating to spanish. It will use WordPress' "language": english. 
 
 == Screenshots ==
 
@@ -47,7 +59,7 @@ The mobile version will automatically show up when a mobile device user agent is
 = 1.3 =
 
 * Added a options panel.
-* Applied translations.
+* Applied translations based on the WordPress core language.
 
 = 1.2 =
 
