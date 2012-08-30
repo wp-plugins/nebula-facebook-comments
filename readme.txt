@@ -5,7 +5,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: Facebook, comment, comments, social, social media
 Requires at least: 3.3
 Tested up to: 3.4
-Stable tag: 1.2
+Stable tag: 1.3
 
 Replaces the default comments functionality by Facebook's Comments social plugin.
 
@@ -43,6 +43,11 @@ The mobile version will automatically show up when a mobile device user agent is
 2. If you post a comment, it will show up underneath the comment form.
 
 == Changelog ==
+
+= 1.3 =
+
+* Added a options panel.
+* Applied translations.
 
 = 1.2 =
 
