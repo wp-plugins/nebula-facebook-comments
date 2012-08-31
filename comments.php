@@ -6,6 +6,12 @@
  * @subpackage Facebook_Comments
  * @since Facebook Comments 1.0
  */
+
+$nbfc_lang = 'en_US';
+
+if( defined('WPLANG') && WPLANG )
+	$nbfc_lang = WPLANG;
+
 ?>
 
 	<div id="comments">
@@ -22,7 +28,7 @@
 				var js, fjs = d.getElementsByTagName(s)[0];
 				if (d.getElementById(id)) return;
 				js = d.createElement(s); js.id = id;
-				js.src = "//connect.facebook.net/<?php echo WPLANG; ?>/all.js#xfbml=1";
+				js.src = "//connect.facebook.net/<?php echo $nbfc_lang; ?>/all.js#xfbml=1";
 				fjs.parentNode.insertBefore(js, fjs);
 			}(document, 'script', 'facebook-jssdk'));
 		</script>

@@ -5,7 +5,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: Facebook, comment, comments, social, social media
 Requires at least: 3.3
 Tested up to: 3.4
-Stable tag: 1.3
+Stable tag: 1.4
 
 Replaces the default comments functionality by Facebook's Comments social plugin.
 
@@ -55,6 +55,10 @@ Good question. Yes and no. The plugin uses the language value defined in the wp-
 2. If you post a comment, it will show up underneath the comment form.
 
 == Changelog ==
+
+= 1.4 =
+
+* Change the handle of the core language to prevent undefined language errors.
 
 = 1.3 =
 
