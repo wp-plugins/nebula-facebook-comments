@@ -4,7 +4,7 @@ Plugin Name: Nebula Facebook Comments
 Plugin URI: http://www.andromeda-media.de/
 Description: Replaces the default comments functionality by Facebook's Comments social plugin. Find more information here: <a href="http://developers.facebook.com/docs/reference/plugins/comments/" title="Find more information">http://developers.facebook.com/docs/reference/plugins/comments/</a>.
 Author: andromeda_media
-Version: 1.4
+Version: 1.5
 Author URI: http://www.andromeda-media.de/
 License: GPL v3
 
