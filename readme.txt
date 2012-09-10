@@ -27,6 +27,13 @@ Friends and people who like the Page can then respond to the discussion by likin
 
 The mobile version will automatically show up when a mobile device user agent is detected. You can turn this behavior off by setting the mobile parameter to false. Please note: the mobile version ignores the width parameter, and instead has a fluid width of 100% in order to resize well in portrait/landscape switching situations. You may need to adjust your CSS for your mobile site to take advantage of this behavior. If preferred, you can still control the width via a container element.
 
+= Languages available =
+
+* English by [andromeda_media](http://profiles.wordpress.org/andromeda_media "Visite the profile").
+* German by [andromeda_media](http://profiles.wordpress.org/andromeda_media "Visite the profile").
+
+You are welcome to translate this pugin into every language you want to. Just give me an Email with your *.po or *.mo file on info@andromeda-media.de.
+
 == Installation ==
 
 1. Upload the 'nebula-facebook-comments' folder to the '/wp-content/plugins/' directory
