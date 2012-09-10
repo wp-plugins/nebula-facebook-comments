@@ -4,7 +4,7 @@ License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: Facebook, comment, comments, social, social media
 Requires at least: 3.3
-Tested up to: 3.4
+Tested up to: 3.4.2
 Stable tag: 1.5
 
 Replaces the default comments functionality by Facebook's Comments social plugin.
