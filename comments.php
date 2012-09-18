@@ -31,8 +31,9 @@ if( defined('WPLANG') && WPLANG )
 	
 		<?php global $nbfc_defaults; ?>
 		<?php $nbfc_options = get_option( NBFC_SLUG, $nbfc_defaults ) ?>
+		<?php $nbfc_scheme = ('dark'==$nbfc_options['scheme']) ? ' data-colorscheme="dark"' : ''; ?>
 	
-		<div class="fb-comments" data-href="<?php the_permalink(); ?>" data-num-posts="<?php echo $nbfc_options['rows']; ?>" data-width="<?php echo $nbfc_options['width']; ?>"></div>
+		<div class="fb-comments" data-href="<?php the_permalink(); ?>" data-num-posts="<?php echo $nbfc_options['rows']; ?>" data-width="<?php echo $nbfc_options['width']; ?>"<?php echo $nbfc_scheme; ?>></div>
 		<div id="fb-root"></div>
 		<script>
 			(function(d, s, id) {

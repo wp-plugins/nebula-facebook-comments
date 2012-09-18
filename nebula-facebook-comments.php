@@ -38,8 +38,9 @@ if( !defined('NBFC_SLUG') )
 
 global $nbfc_defaults;
 $nbfc_defaults = array(
-	'width'	=> 699,
-	'rows'	=> 10,
+	'width'		=> 699,
+	'rows'		=> 10,
+	'scheme'	=> 'light',
 );
 
 if( !class_exists('NebulaFacebookComments') ) {
@@ -100,6 +101,7 @@ if( !class_exists('NebulaFacebookComments') ) {
 			add_settings_section( NBFC_SLUG, __('General'), array(&$this, 'settings_section'), NBFC_SLUG);
 			add_settings_field( 'nbfc_width', __( 'Width of the Plugin', 'nebula-facebook-comments' ), array(&$this, 'width_field'), NBFC_SLUG, NBFC_SLUG );
 			add_settings_field( 'nbfc_rows', __( 'How many comments to show?', 'nebula-facebook-comments' ), array(&$this, 'rows_field'), NBFC_SLUG, NBFC_SLUG );
+			add_settings_field( 'nbfc_scheme', __( 'Plugin color scheme', 'nebula-facebook-comments' ), array(&$this, 'scheme_field'), NBFC_SLUG, NBFC_SLUG );
 		}
 		
 		function settings_section() {
@@ -115,6 +117,14 @@ if( !class_exists('NebulaFacebookComments') ) {
 			echo "<input name='" . NBFC_SLUG . "[rows]' type='text' value='{$this->options['rows']}' class='small-text' />";
 		}
 		
+		function scheme_field() {
+			$default = 'light';
+			echo "<select name='" . NBFC_SLUG . "[scheme]'>";
+			echo "<option value='light'" . selected($this->options['scheme'], 'light') . ">" . __( 'light', 'nebula-facebook-comments' ) . "</option>";
+			echo "<option value='dark'" . selected($this->options['scheme'], 'dark') . ">" . __( 'dark', 'nebula-facebook-comments' ) . "</option>";
+			echo "</select>";
+		}
+		
 		function validate_options( $input ) {
 			global $nbfc_defaults;
 			$output = $defaults = $nbfc_defaults;
@@ -124,6 +134,9 @@ if( !class_exists('NebulaFacebookComments') ) {
 				
 			if( isset( $input['rows'] ) )
 				$output['rows'] = $input['rows'];
+			
+			if( isset( $input['scheme'] ) )
+				$output['scheme'] = $input['scheme'];
 			
 			return $output;
 		}
