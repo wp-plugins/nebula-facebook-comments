@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Nebula Facebook Comments v1.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2012-09-03 08:13:32+0000\n"
+"PO-Revision-Date: 2012-09-18 15:28:37+0000\n"
 "Last-Translator: amadm <fmueller@andromeda-media.de>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -24,45 +24,60 @@ msgstr ""
 msgid "This post is password protected. Enter the password to view any comments."
 msgstr "Dieser Beitrag ist Passwort geschützt. Bitte gib das Passwort ein, um Kommentare sehen zu können."
 
-#: comments.php:52
+#: comments.php:53
 #@ nebula-facebook-comments
 msgid "Comments are closed."
 msgstr "Kommentare sind geschlossen."
 
-#: nebula-facebook-comments.php:74
-#: nebula-facebook-comments.php:85
+#: nebula-facebook-comments.php:75
+#: nebula-facebook-comments.php:86
 #, php-format
 #@ nebula-facebook-comments
 msgid "%s Setting"
 msgstr "%s Einstellungen"
 
-#: nebula-facebook-comments.php:86
+#: nebula-facebook-comments.php:87
 #@ nebula-facebook-comments
 msgid "Here you can define the width of the plugin and the number of comments to show."
 msgstr "Hier kannst du die Breite des Plugins definieren und festlegen wieviele Kommenarte angezeigt werden sollen."
 
-#: nebula-facebook-comments.php:100
+#: nebula-facebook-comments.php:101
 #@ default
 msgid "General"
 msgstr ""
 
-#: nebula-facebook-comments.php:101
+#: nebula-facebook-comments.php:102
 #@ nebula-facebook-comments
 msgid "Width of the Plugin"
 msgstr "Breite the Plugins"
 
-#: nebula-facebook-comments.php:102
+#: nebula-facebook-comments.php:103
 #@ nebula-facebook-comments
 msgid "How many comments to show?"
 msgstr "Wieviele Kommentare anzeigen?"
 
-#: nebula-facebook-comments.php:106
+#: nebula-facebook-comments.php:108
 #@ nebula-facebook-comments
 msgid "Please define width and height of the plugin"
 msgstr "Bitte definiere Breite und &quot;Höhe&quot; des Plugins"
 
-#: nebula-facebook-comments.php:111
+#: nebula-facebook-comments.php:113
 #@ nebula-facebook-comments
 msgid "(The width in pixel)"
 msgstr "(Die Breite wird in Pixeln angegeben, z.B. für 250px trägst du bitte 250 ein)."
+
+#: nebula-facebook-comments.php:104
+#@ nebula-facebook-comments
+msgid "Plugin color scheme"
+msgstr "Plugin Farbschema"
+
+#: nebula-facebook-comments.php:123
+#@ nebula-facebook-comments
+msgid "light"
+msgstr "hell"
+
+#: nebula-facebook-comments.php:124
+#@ nebula-facebook-comments
+msgid "dark"
+msgstr "dunkel"
 
